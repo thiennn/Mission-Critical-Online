@@ -11,7 +11,7 @@ variables:
 # Check which regions are valid. There is a list in /src/infra/README.md
 # If you are planning to run Chaos Studio experiments, make sure the first region in the list does support Azure Chaos Studio. Not all regions do yet
 - name: 'stampLocations'
-  value: '["uksouth"]'
+  value: '["southeastasia"]'
 
 # Terraform state variables
 - name:  'terraformResourceGroup'
@@ -21,4 +21,4 @@ variables:
 
 # Other settings
 - name:  'contactEmail'
-  value: 'noreply@microsoft.com'  # <===== CHANGE THIS VALUE TO ONE OF YOUR REAL EMAIL ADDRESSES (OR A GROUP)!
+  value: 'nlqthien@gmail.com'  # <===== CHANGE THIS VALUE TO ONE OF YOUR REAL EMAIL ADDRESSES (OR A GROUP)!
